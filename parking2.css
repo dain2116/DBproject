@@ -1,0 +1,43 @@
+header {
+    display: flex;
+    width: 600px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.keywords {
+    z-index: 1;
+    background-color: white;
+    display: none;
+    position: absolute;
+    top: 110px;
+    width: 600px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.keywords li:hover,
+.keywords .selected {
+    cursor: pointer;
+    background-color: lightskyblue;
+    color: white;
+}
+
+.keywords .active {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.keywords ul {
+    padding: 0;
+    margin: 0;
+}
+
+.keywords li {
+    list-style: none;
+    padding-left: 10px;
+}
+
+table {
+    margin-top: 10px;
+}
