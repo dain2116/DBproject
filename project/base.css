@@ -11,10 +11,6 @@
 #exit {
       position: absolute;
       top: 30%;
-<<<<<<< HEAD
-      right: 30%;
-      
-=======
       right: 33%;
       color: #fff; 
       background:rgb(231, 166, 45); 
@@ -41,5 +37,4 @@
     font-size:4em; 
     border-radius:0.5em; 
     padding:7px 25px;
->>>>>>> 9fb3ccbc1a9edced02454b74dcebb2485fef9409
 }
