@@ -1,15 +1,45 @@
 #enter {
       position: absolute;
       top: 30%;
-      left: 30%;
+      left: 32%;
       color: #fff; 
       background:rgb(231, 166, 45); 
-      font-size:2em; border-radius:0.5em; 
-      padding:5px 20px;
+      font-size:4em; 
+      border-radius:0.5em; 
+      padding:10px 30px;
 }
- #exit {
+#exit {
       position: absolute;
       top: 30%;
+<<<<<<< HEAD
       right: 30%;
       
+=======
+      right: 33%;
+      color: #fff; 
+      background:rgb(231, 166, 45); 
+      font-size: 4em; 
+      border-radius:0.5em; 
+      padding:10px 30px;
+}
+#admin{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    color: #fff; 
+    background:rgb(231, 166, 45); 
+    font-size:4em; 
+    border-radius:0.5em; 
+    padding:7px 25px;
+}
+#parking {
+    position: absolute;
+    top: 60%;
+    right: 30%; 
+    color: #fff; 
+    background:rgb(231, 166, 45); 
+    font-size:4em; 
+    border-radius:0.5em; 
+    padding:7px 25px;
+>>>>>>> 9fb3ccbc1a9edced02454b74dcebb2485fef9409
 }
