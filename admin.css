@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(10, 9, 9);
+    color: white;
+}
+#enroll  {
+    position: absolute;
+    left: 43%;
+    top: 25%;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    margin: 10px;
+}

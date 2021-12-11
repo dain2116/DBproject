@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="parking.css">
+    <script type = "text/javascript" scr = "parking.js"></script>
+</head>
+<body>
+    <div style="
+    text-align: center;
+    top:100px;
+    font-size:5em;
+    font-family: 굴림;
+    ">주차현황
+    </div> 
+
+    <table border="1" bordercolor= "black" width ="578" height="200" align = "center" >
+        <tr bgcolor="black" align ="center">
+        <p><td colspan = "3" span style="color:white">주차현황</td></p>
+        </tr>
+        <tr align = "center" bgcolor="gray">
+        <td>현재주차수</td>
+        <td>남은자리수</td>
+        <td>총 자리수</td>
+        </tr>
+        <tr align = "center">
+        <td>23</td>
+        <td>41</td>
+        <td>64</td>
+        </tr>
+    </table>
+    <div class="searchbox">
+        <div class="header">
+          <h1>Search</h1>
+          <input onkeyup="filter()" type="text" id="value" placeholder="Type to Search">
+        </div>
+        <div class="container">
+
+        <div class="item">
+          <span class="icon">3</span>
+          <span class="name">353조 5985</span>
+        </div>
+
+        <div class="item">
+          <span class="icon">2</span>
+          <span class="name">23하 4494</span>
+        </div>
+
+        <div class="item">
+          <span class="icon">2</span>
+          <span class="name">29허 8596</span>
+        </div>
+
+        <div class="item">
+          <span class="icon">9</span>
+          <span class="name">98주 5955</span>
+        </div>
+
+        <div class="item">
+          <span class="icon">1</span>
+          <span class="name">14로 8416</span>
+        </div>
+
+        <div class="item">
+          <span class="icon">5</span>
+          <span class="name">53수 5165</span>
+        </div>
+
+        <div class="item">
+          <span class="icon">6</span>
+          <span class="name">69오 1516</span>
+        </div>
+
+        <div class="item">
+          <span class="icon">4</span>
+          <span class="name">45머 1616</span>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
