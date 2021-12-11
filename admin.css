@@ -1,12 +1,36 @@
 body{
-    background-color: rgb(10, 9, 9);
+    background-color: rgb(255, 255, 255);
     color: white;
 }
 #enroll  {
     position: absolute;
-    left: 43%;
-    top: 25%;
+    left: 40%;
+    top: 26%;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    margin: 10px;
+}
+.input{
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    margin-left: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+}
+#text {
+    position: absolute;
+    left: 40%;
+    top: 33%;
     font-family: 'Montserrat';
     font-size: 30px;
+    margin: 10px;
+}
+#button {
+    position: absolute;
+    left: 61%;
+    top: 33%;
+    font-family: 'Montserrat';
+    font-size: 15px;
     margin: 10px;
 }
