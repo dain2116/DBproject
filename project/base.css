@@ -7,8 +7,33 @@
       font-size:2em; border-radius:0.5em; 
       padding:5px 20px;
 }
- #exit {
+#exit {
       position: absolute;
       top: 30%;
       right: 30%;
+      color: #fff; 
+      background:rgb(231, 166, 45); 
+      font-size:2em; 
+      border-radius:0.5em; 
+      padding:5px 20px;
+}
+#admin {
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    color: #fff; 
+    background:rgb(231, 166, 45); 
+    font-size:2em; 
+    border-radius:0.5em; 
+    padding:5px 20px;
+}
+#parking {
+    position: absolute;
+    top: 60%;
+    right: 30%; 
+    color: #fff; 
+    background:rgb(231, 166, 45); 
+    font-size:2em; 
+    border-radius:0.5em; 
+    padding:5px 20px;
 }
