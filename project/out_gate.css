@@ -4,8 +4,10 @@ body{
 }
 #box {
     position: absolute;
-    left: 36%;
-    bottom: 30%;
+    left: 35%;
+    top: 40%;
+    width: 400px;
+    height: 350px;
 }
 #car{
     position: absolute;
