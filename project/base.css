@@ -1,0 +1,14 @@
+#enter {
+      position: absolute;
+      top: 30%;
+      left: 30%;
+      color: #fff; 
+      background:rgb(231, 166, 45); 
+      font-size:2em; border-radius:0.5em; 
+      padding:5px 20px;
+}
+ #exit {
+      position: absolute;
+      top: 30%;
+      right: 30%;
+}
