@@ -33,6 +33,12 @@ body{
     width: 80px;
     height: 35px;
 }
-.menu {
-    
+.menu:link {
+    color: white;
+}
+.menu:visited{
+    color: white;
+}
+.menu:hover{
+    color: red;
 }
