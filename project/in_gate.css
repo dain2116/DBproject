@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(73, 73, 73);
+    color: white;
+}
+#entrance {
+    position: absolute;
+    left: 49%;
+    top: 25%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    margin: 10px;
+}
+.input{
+    position: absolute;
+    left: 35%;
+    top: 40%;
+    margin-left: 10px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
+}
+#text{
+    display: inline-block;
+    margin: 15px;
+    font-size: large;
+}
+#button {
+    display: inline-block;
+    position: absolute;
+    left: 49%;
+    top: 30%;
+    margin-top: 15%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(55, 92, 255, 0.719);
+    color: white;
+    font-size: 15px;
+}
