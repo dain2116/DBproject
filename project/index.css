@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(73, 73, 73);
+    background-color: #E0D3B6;
     color: white;
 }
 #enter {
@@ -7,7 +7,7 @@ body{
       top: 30%;
       left: 32%;
       color: #fff; 
-      background-color: rgba(55, 92, 255, 0.719);
+      background-color: rgb(146, 124, 114);
       font-size:4em; 
       border-radius:0.5em; 
       padding:10px 30px;
@@ -17,7 +17,7 @@ body{
       top: 30%;
       right: 33%;
       color: #fff; 
-      background-color: rgba(55, 92, 255, 0.719);
+      background-color: rgb(146, 124, 114);
       font-size: 4em; 
       border-radius:0.5em; 
       padding:10px 30px;
@@ -27,7 +27,7 @@ body{
     top: 60%;
     left: 30%;
     color: #fff; 
-    background-color: rgba(55, 92, 255, 0.719);
+    background-color: rgb(146, 124, 114);
     font-size:4em; 
     border-radius:0.5em; 
     padding:7px 25px;
@@ -37,17 +37,24 @@ body{
     top: 60%;
     right: 30%; 
     color: #fff; 
-    background-color: rgba(55, 92, 255, 0.719);
+    background-color: rgb(146, 124, 114);
     font-size:4em; 
     border-radius:0.5em; 
     padding:7px 25px;
 }
+.menu{
+    text-decoration: none;
+    font-weight: 550;
+}
 .menu:link {
-    color: white;
+    color: rgb(146, 124, 114);
 }
 .menu:visited{
-    color: white;
+    color: rgb(146, 124, 114);
 }
 .menu:hover{
-    color: red;
+    color: white;
+}
+#title{
+    text-shadow: 1px 1px 3px gray;
 }
