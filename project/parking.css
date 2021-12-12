@@ -61,12 +61,13 @@ body{
 .menu{
     text-decoration: none;
     font-weight: 550;
+    margin: 5px;
 }
 .menu:link {
-    color: rgb(146, 124, 114);
+    color: #E0D3B6;
 }
 .menu:visited{
-    color: rgb(146, 124, 114);
+    color: #E0D3B6;
 }
 .menu:hover{
     color: white;

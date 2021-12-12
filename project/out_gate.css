@@ -54,6 +54,7 @@ body{
 .menu{
     text-decoration: none;
     font-weight: 550;
+    font-size: 17px;
 }
 .menu:link {
     color: rgb(146, 124, 114);
