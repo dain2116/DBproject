@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(73, 73, 73);
+    color: white;
+}
+#enter {
+      position: absolute;
+      top: 30%;
+      left: 32%;
+      color: #fff; 
+      background-color: rgba(55, 92, 255, 0.719);
+      font-size:4em; 
+      border-radius:0.5em; 
+      padding:10px 30px;
+}
+#exit {
+      position: absolute;
+      top: 30%;
+      right: 33%;
+      color: #fff; 
+      background-color: rgba(55, 92, 255, 0.719);
+      font-size: 4em; 
+      border-radius:0.5em; 
+      padding:10px 30px;
+}
+#admin{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    color: #fff; 
+    background-color: rgba(55, 92, 255, 0.719);
+    font-size:4em; 
+    border-radius:0.5em; 
+    padding:7px 25px;
+}
+#parking {
+    position: absolute;
+    top: 60%;
+    right: 30%; 
+    color: #fff; 
+    background-color: rgba(55, 92, 255, 0.719);
+    font-size:4em; 
+    border-radius:0.5em; 
+    padding:7px 25px;
+}
+.menu:link {
+    color: white;
+}
+.menu:visited{
+    color: white;
+}
+.menu:hover{
+    color: red;
+}

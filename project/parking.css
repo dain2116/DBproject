@@ -57,3 +57,12 @@ body{
     font-weight: 470;
     color: #333;
   }
+  .menu:link {
+    color: white;
+}
+.menu:visited{
+    color: white;
+}
+.menu:hover{
+    color: red;
+}

@@ -2,12 +2,10 @@ body{
     background-color: rgb(73, 71, 71);
     color: white;
 }
-#box {
-}
 #enroll {
     display: block;
     position: absolute;
-    left: 37%;
+    left: 45%;
     top: 33%;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 30px;
@@ -42,4 +40,13 @@ body{
     background-color: rgba(55, 92, 255, 0.719);
     color: white;
     font-size: 15px;
+}
+.menu:link {
+    color: white;
+}
+.menu:visited{
+    color: white;
+}
+.menu:hover{
+    color: red;
 }

@@ -10,10 +10,10 @@
     <a class="menu" href="out_gate.html">출차</a>
     <a class="menu" href="admin.html">관리자</a>
     <a class="menu" href="parking.html">주차현황</a>
-    <a class="menu" href="base.html">Home</a>
+    <a class="menu" href="index.html">Home</a>
     <div id="car">
         차량번호
-        <input type="text" id="search" style="width: 300px; height: 40px;"> 
+        <input type="text" id="search" style="width: 350px; height: 40px;"> 
         <button id="button">SEARCH</button>
     </div>
     <fieldset id="box">
@@ -24,14 +24,27 @@
         </div>
         <br><br>
         <div id="form">
-        <label for="name">입차 시간:</label>
-        <input type="text"><br><br><br>
-        <label for="price"> 주차 시간:</label>
-        <input type="text"><br><br><br>
-        <label for="discount">할인된 금액:</label>
-        <input type="tex"><br><br><br>
-        <label for="total">총 금액:</label>
-        <input type="text">
+            <div class="parking_info">
+                <label for="name">입차 시간:
+                    <div class="info" style="width: 200px; height: 30px;">11:11:11</div>
+                </label><br>
+            </div>
+            <div class="parking_info">
+                <label for="price"> 주차 시간:
+                    <div class="info" style="width: 200px; height: 30px;">정보</div>
+                </label><br>
+            </div>
+            <div class="parking_info">
+                <label for="discount">할인된 금액:
+                    <div class="info" style="width: 200px; height: 30px;">정보</div>
+                </label><br>
+            </div>
+            <div class="parking_info">
+                <label for="total">총 금액:
+                    <div class="info" style="width: 200px; height: 30px;">정보</div>
+                </label>
+            </div>
+            <button id="pay" onclick="alert('결제가 완료되었습니다.')">결제하기</button>
         </div>
     </fieldset>    
 </body>

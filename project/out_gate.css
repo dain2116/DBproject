@@ -6,7 +6,7 @@ body{
     position: absolute;
     left: 35%;
     top: 40%;
-    width: 400px;
+    width: 450px;
     height: 350px;
 }
 #car{
@@ -24,6 +24,12 @@ body{
     padding: 5px;
     width: 100px;
     height: 35px;
+}
+#button:hover{
+    cursor: pointer;
+}
+.pay:hover{
+    cursor: pointer;
 }
 .pay {
     border: none;
@@ -43,4 +49,26 @@ body{
 }
 .menu:hover{
     color: red;
-}   
+}
+.info {
+    background-color: white;
+    display: inline-block;
+    font-size: 20px;
+    color: black;
+}
+label{
+    display: inline-block;
+}
+.parking_info{
+    margin-bottom: 45px;
+}
+#pay {
+    border: none;
+    background-color: rgba(55, 92, 255, 0.719);
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    width: 80px;
+    height: 35px;
+}
