@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(110, 82, 69);
+    background-color: rgb(146, 124, 114);
     margin: 0;
     padding: 0;
     font-family: "Montserrat";
@@ -16,7 +16,7 @@ body{
   }
   .header h1{
     text-transform: uppercase;
-    color: rgb(247, 246, 242);
+    color: rgb(107, 107, 107);
     margin: 0;
     margin-bottom: 8px;
   }
@@ -65,4 +65,7 @@ body{
 }
 .menu:hover{
     color: red;
+}
+#parking{
+  color: white;
 }
