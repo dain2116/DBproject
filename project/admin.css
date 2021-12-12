@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(73, 71, 71);
+    background-color: #E0D3B6;
     color: white;
 }
 #enroll {
@@ -43,7 +43,7 @@ body{
     height: 35px;
     border: none;
     border-radius: 20px;
-    background-color: rgba(55, 92, 255, 0.719);
+    background-color: rgb(146, 124, 114);
     color: white;
     font-size: 15px;
 }
@@ -51,15 +51,18 @@ body{
 .button:hover{
     background: skyblue;
 }
-
+.menu{
+    text-decoration: none;
+    font-weight: 550;
+}
 .menu:link {
-    color: white;
+    color: rgb(146, 124, 114);
 }
 .menu:visited{
-    color: white;
+    color: rgb(146, 124, 114);
 }
 .menu:hover{
-    color: blue;
+    color: white;
 }
 
 #box{

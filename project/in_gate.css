@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(73, 73, 73);
+    background-color: #E0D3B6;
     color: white;
 }
 #entrance {
@@ -7,17 +7,19 @@ body{
     left: 49%;
     top: 25%;
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 30px;
+    font-size: 50px;
     margin: 10px;
+    text-shadow: 1px 1px 3px gray;
 }
 .input{
     display: inline-block;
     position: absolute;
-    left: 38%;
+    left: 37%;
     top: 40%;
     margin-left: 10px;
     font-family: 'Noto Sans KR', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
+    text-shadow: 1px 1px 3px gray;
 }
 #text{
     display: inline-block;
@@ -36,19 +38,23 @@ body{
     height: 35px;
     border: none;
     border-radius: 20px;
-    background-color: rgba(55, 92, 255, 0.719);
+    background-color: rgb(146, 124, 114);
     color: white;
     font-size: 15px;
 }
 #button:hover{
     cursor: pointer;
 }
+.menu{
+    text-decoration: none;
+    font-weight: 550;
+}
 .menu:link {
-    color: white;
+    color: rgb(146, 124, 114);
 }
 .menu:visited{
-    color: white;
+    color: rgb(146, 124, 114);
 }
 .menu:hover{
-    color: red;
+    color: white;
 }
