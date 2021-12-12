@@ -1,9 +1,13 @@
+body{
+    background-color: rgb(73, 73, 73);
+    color: white;
+}
 #enter {
       position: absolute;
       top: 30%;
       left: 32%;
       color: #fff; 
-      background:rgb(231, 166, 45); 
+      background:rgb(12, 12, 12); 
       font-size:4em; 
       border-radius:0.5em; 
       padding:10px 30px;
@@ -13,7 +17,7 @@
       top: 30%;
       right: 33%;
       color: #fff; 
-      background:rgb(231, 166, 45); 
+      background:rgb(5, 5, 5); 
       font-size: 4em; 
       border-radius:0.5em; 
       padding:10px 30px;
@@ -23,7 +27,7 @@
     top: 60%;
     left: 30%;
     color: #fff; 
-    background:rgb(231, 166, 45); 
+    background:rgb(10, 10, 10); 
     font-size:4em; 
     border-radius:0.5em; 
     padding:7px 25px;
@@ -33,7 +37,7 @@
     top: 60%;
     right: 30%; 
     color: #fff; 
-    background:rgb(231, 166, 45); 
+    background:rgb(15, 15, 14); 
     font-size:4em; 
     border-radius:0.5em; 
     padding:7px 25px;
