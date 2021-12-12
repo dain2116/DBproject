@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(73, 71, 71);
+    background-color: #E0D3B6;
     color: white;
 }
 #enroll {
@@ -43,13 +43,13 @@ body{
     height: 35px;
     border: none;
     border-radius: 20px;
-    background-color: rgba(55, 92, 255, 0.719);
+    background-color: rgba(49, 41, 31, 0.719);
     color: white;
     font-size: 15px;
 }
 
 .button:hover{
-    background: skyblue;
+    background:rgb(121, 104, 96);
 }
 
 .menu:link {
@@ -63,13 +63,13 @@ body{
 }
 
 #box{
-    margin: 140px auto;
+    margin: 150px auto;
     border: 1px solid white;
     width: 400px;
-    height: 100px;
+    height: 95px;
     padding-left:10px;
     padding-top: 10px;
-    background-color: rgb(37, 36, 36);
+    background-color: rgb(146, 124, 114);
 }
 
 #box1{
@@ -79,7 +79,7 @@ body{
     height: 180px;
     padding-left:10px;
     padding-top: 20px;
-    background-color: rgb(37, 36, 36);
+    background-color: rgb(146, 124, 114);
 }
 #text1{
     width: 280px;
@@ -87,5 +87,8 @@ body{
 #text2{
     width: 300px;
     height: 100px;
+}
+#title{
+    text-shadow: 1px 1px 3px gray;
 }
 
