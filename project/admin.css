@@ -1,29 +1,45 @@
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(73, 71, 71);
+    color: white;
 }
 #box {
 }
 #enroll {
     display: block;
     position: absolute;
-    left: 45%;
-    top: 30%;
+    left: 37%;
+    top: 33%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
 }
 .input{
     display: block;
     position: absolute;
     top: 40%;
-    left: 40%;
+    left: 37%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
 }
 .answer {
     display: block;
     position: absolute;
     top: 60%;
     left: 40%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 20px;
 }
 .button {
     display: block;
     position: absolute;
     left: 40%;
     margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(55, 92, 255, 0.719);
+    color: white;
+    font-size: 15px;
 }
