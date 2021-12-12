@@ -5,14 +5,14 @@ body{
 #box {
     position: absolute;
     left: 33%;
-    top: 35%;
+    top: 32%;
     width: 450px;
     height: 400px;
 }
 #car{
     position: absolute;
     left: 30%;
-    top: 25%;
+    top: 22%;
 }
 #button {
     display: inline-block;
@@ -74,6 +74,7 @@ label{
 }
 #pay {
     border: none;
+    position: absolute;
     background-color: rgba(55, 92, 255, 0.719);
     border-radius: 20px;
     color: white;
@@ -81,7 +82,13 @@ label{
     padding: 5px;
     width: 80px;
     height: 35px;
+    left: 40%;
 }
 #pay:hover{
     cursor: pointer;
+}
+h1{
+    position: absolute;
+    left: 45%;
+    top: 10%;
 }
