@@ -6,6 +6,7 @@ body{
 #enroll {
     display: block;
     position: absolute;
+    white-space: nowrap;
     left: 550px;
     top: 250px;
     font-family: 'Noto Sans KR', sans-serif;
@@ -17,6 +18,7 @@ body{
 #enroll1 {
     display: block;
     position: absolute;
+    white-space: nowrap;
     left: 550px;
     top: 500px;
     font-family: 'Noto Sans KR', sans-serif;
