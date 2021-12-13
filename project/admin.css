@@ -1,12 +1,13 @@
 body{
     background-color: #E0D3B6;
     color: white;
+    width: 1500px;
 }
 #enroll {
     display: block;
     position: absolute;
-    left: 37%;
-    top: 32%;
+    left: 550px;
+    top: 250px;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 30px;
     text-shadow: 1px 1px 3px gray;
@@ -16,8 +17,8 @@ body{
 #enroll1 {
     display: block;
     position: absolute;
-    left: 37%;
-    top: 60%;
+    left: 550px;
+    top: 500px;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: 30px;
     text-shadow: 1px 1px 3px gray;
@@ -39,7 +40,7 @@ body{
 .button {
     display: block;
     position: absolute;
-    left: 40%;
+    left: 140px;
     margin-top: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
